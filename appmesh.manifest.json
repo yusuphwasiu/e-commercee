@@ -1,0 +1,40 @@
+{
+  "appName": "e-commercee",
+  "architecture": "microservice",
+  "modules": [
+    {
+      "id": "payments-stripe",
+      "version": "1.2.0"
+    },
+    {
+      "id": "file-storage",
+      "version": "1.1.0"
+    },
+    {
+      "id": "database-postgres",
+      "version": "2.0.0"
+    },
+    {
+      "id": "queue-redis",
+      "version": "1.4.0"
+    },
+    {
+      "id": "api-gateway",
+      "version": "1.5.0"
+    },
+    {
+      "id": "cache-redis",
+      "version": "1.2.0"
+    },
+    {
+      "id": "notifications",
+      "version": "0.9.1"
+    }
+  ],
+  "generatedAt": "2025-10-27T22:19:05.226Z",
+  "devPresets": {
+    "dockerCompose": true,
+    "envExample": true
+  },
+  "notes": "Generated with AppMesh. Local dev preset uses Docker containers for all services."
+}
